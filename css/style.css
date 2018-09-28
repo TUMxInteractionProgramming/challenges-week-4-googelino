@@ -129,8 +129,10 @@ li .channel-meta {
     top: 12px;
 }
 
-li img {
+li img, li span * {
     vertical-align: middle;
+    font-size: 24px;
+    font-weight:900;
 }
 
 li.selected {
@@ -178,6 +180,12 @@ li.selected {
 }
 
 /* #5 CHAT BAR */
+
+
+#channel-location a{
+  text-decoration: none;
+  font-weight: bold;
+}
 
 #chat-bar button {
     /* #5 #smileys #override button styles. We set the chat bar to appear like a tab-bar above. This overrides the tab bar's button scaling */
